@@ -1,6 +1,6 @@
 # UEA: Sistemas Distribuidos
 
-# 🍬 Proyecto de Sistemas Distribuidos — "Dulcería"
+## 🖥️ TUXEDO
 
 Su objetivo es demostrar la integración de **interfaces gráficas** con una **base de datos Oracle**, haciendo uso de **Oracle Tuxedo** para gestionar la comunicación entre cliente e infraestructura distribuida.
 
@@ -12,7 +12,7 @@ Diseñar una aplicación distribuida que permita al usuario realizar operaciones
 
 ---
 
-## 🧱 Arquitectura general
+##  📌  Arquitectura general
 
 - **Cliente Java** con interfaz gráfica (Swing)
 - **Middleware Tuxedo** (archivos `.ud32`, `.fml`)
@@ -25,7 +25,7 @@ Diseñar una aplicación distribuida que permita al usuario realizar operaciones
 
 La interfaz gráfica permite realizar todas las operaciones básicas de una base de datos desde una aplicación distribuida:
 
-### ➕ Insertar producto
+### ✅ Insertar producto
 
 - Permite agregar un nuevo registro a la tabla `Dulceria`
 - Se especifican: `id_clave`, `nombre_dulce`, `tipo_dulce`, `descripcion`, `precio`
@@ -58,3 +58,10 @@ CREATE TABLE Dulceria (
   descripcion VARCHAR2(20),
   precio NUMBER(20)
 );
+```
+
+## 🔗 Recursos y bibliografía
+
+- Oracle Tuxedo: https://www.oracle.com/middleware/technologies/tuxedo.html
+- Oracle SQL Developer: https://www.oracle.com/database/sqldeveloper/
+- Tutorial Java - Archivos de texto: https://decodigo.com/java-crear-archivos-de-texto
