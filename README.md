@@ -6,7 +6,7 @@ Su objetivo es demostrar la integración de **interfaces gráficas** con una **b
 
 ---
 
-## 🎯 Objetivo del Proyecto
+## 🎯 Objetivo
 
 Diseñar una aplicación distribuida que permita al usuario realizar operaciones sobre una base de datos a través de una interfaz gráfica intuitiva, aprovechando los servicios de middleware de **Oracle Tuxedo** para conectarse con una **BD Oracle**.
 
