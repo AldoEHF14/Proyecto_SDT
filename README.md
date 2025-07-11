@@ -21,7 +21,7 @@ Diseñar una aplicación distribuida que permita al usuario realizar operaciones
 
 ---
 
-## ⚙️ Funcionalidades implementadas
+## ⚙️ Funcionalidades
 
 La interfaz gráfica permite realizar todas las operaciones básicas de una base de datos desde una aplicación distribuida:
 
